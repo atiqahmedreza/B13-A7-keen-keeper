@@ -1,0 +1,266 @@
+{
+  "friends": [
+    {
+      "id": 1,
+      "name": "Emma Wilson",
+      "picture": "https://i.pravatar.cc/300?img=5",
+      "email": "emma.wilson@example.com",
+      "days_since_contact": 62,
+      "status": "overdue",
+      "tags": ["family"],
+      "bio": "Former colleague, great mentor",
+      "goal": 30,
+      "next_due_date": "2026-02-27",
+      "preferred_contact": "email"
+    },
+    {
+      "id": 2,
+      "name": "David Kim",
+      "picture": "https://i.pravatar.cc/300?img=11",
+      "email": "david.kim@example.com",
+      "days_since_contact": 8,
+      "status": "on-track",
+      "tags": ["work"],
+      "bio": "Project lead on our last sprint — always has great ideas",
+      "goal": 14,
+      "next_due_date": "2026-07-03",
+      "preferred_contact": "text"
+    },
+    {
+      "id": 3,
+      "name": "Lisa Nakamura",
+      "picture": "https://i.pravatar.cc/300?img=9",
+      "email": "lisa.nakamura@example.com",
+      "days_since_contact": 22,
+      "status": "almost due",
+      "tags": ["hobby", "close friend"],
+      "bio": "Book club buddy and weekend hiking partner",
+      "goal": 21,
+      "next_due_date": "2026-07-01",
+      "preferred_contact": "call"
+    },
+    {
+      "id": 4,
+      "name": "James Wright",
+      "picture": "https://i.pravatar.cc/300?img=12",
+      "email": "james.wright@example.com",
+      "days_since_contact": 45,
+      "status": "overdue",
+      "tags": ["travel"],
+      "bio": "Met on a backpacking trip through Southeast Asia",
+      "goal": 30,
+      "next_due_date": "2026-05-27",
+      "preferred_contact": "video"
+    },
+    {
+      "id": 5,
+      "name": "Marcus Johnson",
+      "picture": "https://i.pravatar.cc/300?img=13",
+      "email": "marcus.johnson@example.com",
+      "days_since_contact": 5,
+      "status": "on-track",
+      "tags": ["work", "close friend"],
+      "bio": "College roommate turned lifelong friend",
+      "goal": 14,
+      "next_due_date": "2026-07-06",
+      "preferred_contact": "call"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Chen",
+      "picture": "https://i.pravatar.cc/300?img=20",
+      "email": "sarah.chen@example.com",
+      "days_since_contact": 18,
+      "status": "almost due",
+      "tags": ["family"],
+      "bio": "Cousin who lives across the country — always makes me laugh",
+      "goal": 21,
+      "next_due_date": "2026-07-05",
+      "preferred_contact": "text"
+    },
+    {
+      "id": 7,
+      "name": "Olivia Martinez",
+      "picture": "https://i.pravatar.cc/300?img=23",
+      "email": "olivia.martinez@example.com",
+      "days_since_contact": 3,
+      "status": "on-track",
+      "tags": ["hobby"],
+      "bio": "Yoga instructor and meditation partner",
+      "goal": 7,
+      "next_due_date": "2026-07-08",
+      "preferred_contact": "video"
+    },
+    {
+      "id": 8,
+      "name": "Aisha Patel",
+      "picture": "https://i.pravatar.cc/300?img=25",
+      "email": "aisha.patel@example.com",
+      "days_since_contact": 35,
+      "status": "overdue",
+      "tags": ["work"],
+      "bio": "Former manager who taught me everything about leadership",
+      "goal": 30,
+      "next_due_date": "2026-06-06",
+      "preferred_contact": "email"
+    },
+    {
+      "id": 9,
+      "name": "Ryan O'Brien",
+      "picture": "https://i.pravatar.cc/300?img=33",
+      "email": "ryan.obrien@example.com",
+      "days_since_contact": 12,
+      "status": "almost due",
+      "tags": ["travel", "close friend"],
+      "bio": "Road trip companion — we've driven coast to coast twice",
+      "goal": 14,
+      "next_due_date": "2026-07-07",
+      "preferred_contact": "call"
+    },
+    {
+      "id": 10,
+      "name": "Tom Baker",
+      "picture": "https://i.pravatar.cc/300?img=52",
+      "email": "tom.baker@example.com",
+      "days_since_contact": 1,
+      "status": "on-track",
+      "tags": ["family", "hobby"],
+      "bio": "Brother-in-law who shares my love of cooking",
+      "goal": 7,
+      "next_due_date": "2026-07-10",
+      "preferred_contact": "text"
+    },
+    {
+      "id": 11,
+      "name": "Hannah Brooks",
+      "picture": "https://i.pravatar.cc/300?img=44",
+      "email": "hannah.brooks@example.com",
+      "days_since_contact": 28,
+      "status": "almost due",
+      "tags": ["work", "travel"],
+      "bio": "Conference buddy who always finds the best local coffee spots",
+      "goal": 21,
+      "next_due_date": "2026-07-02",
+      "preferred_contact": "email"
+    },
+    {
+      "id": 12,
+      "name": "Kevin Foster",
+      "picture": "https://i.pravatar.cc/300?img=57",
+      "email": "kevin.foster@example.com",
+      "days_since_contact": 52,
+      "status": "overdue",
+      "tags": ["close friend", "hobby"],
+      "bio": "Guitar jam sessions every month — haven't played together in ages",
+      "goal": 30,
+      "next_due_date": "2026-05-20",
+      "preferred_contact": "call"
+    }
+  ],
+  "timeline": [
+    {
+      "id": 1,
+      "friendId": 3,
+      "friendName": "Tom Baker",
+      "type": "meetup",
+      "title": "Meetup with Tom Baker",
+      "date": "2026-03-29"
+    },
+    {
+      "id": 2,
+      "friendId": 1,
+      "friendName": "Emma Wilson",
+      "type": "call",
+      "title": "Call with Emma Wilson",
+      "date": "2026-03-15"
+    },
+    {
+      "id": 3,
+      "friendId": 5,
+      "friendName": "Marcus Johnson",
+      "type": "text",
+      "title": "Text with Marcus Johnson",
+      "date": "2026-03-10"
+    },
+    {
+      "id": 4,
+      "friendId": 7,
+      "friendName": "Olivia Martinez",
+      "type": "video",
+      "title": "Video with Olivia Martinez",
+      "date": "2026-03-08"
+    },
+    {
+      "id": 5,
+      "friendId": 2,
+      "friendName": "David Kim",
+      "type": "call",
+      "title": "Call with David Kim",
+      "date": "2026-03-05"
+    },
+    {
+      "id": 6,
+      "friendId": 6,
+      "friendName": "Sarah Chen",
+      "type": "text",
+      "title": "Text with Sarah Chen",
+      "date": "2026-02-28"
+    },
+    {
+      "id": 7,
+      "friendId": 9,
+      "friendName": "Ryan O'Brien",
+      "type": "meetup",
+      "title": "Meetup with Ryan O'Brien",
+      "date": "2026-02-22"
+    },
+    {
+      "id": 8,
+      "friendId": 4,
+      "friendName": "James Wright",
+      "type": "video",
+      "title": "Video with James Wright",
+      "date": "2026-02-18"
+    },
+    {
+      "id": 9,
+      "friendId": 10,
+      "friendName": "Tom Baker",
+      "type": "text",
+      "title": "Text with Tom Baker",
+      "date": "2026-02-10"
+    },
+    {
+      "id": 10,
+      "friendId": 3,
+      "friendName": "Lisa Nakamura",
+      "type": "call",
+      "title": "Call with Lisa Nakamura",
+      "date": "2026-02-05"
+    },
+    {
+      "id": 11,
+      "friendId": 8,
+      "friendName": "Aisha Patel",
+      "type": "call",
+      "title": "Call with Aisha Patel",
+      "date": "2026-01-28"
+    },
+    {
+      "id": 12,
+      "friendId": 1,
+      "friendName": "Emma Wilson",
+      "type": "text",
+      "title": "Text with Emma Wilson",
+      "date": "2026-01-20"
+    },
+    {
+      "id": 13,
+      "friendId": 5,
+      "friendName": "Marcus Johnson",
+      "type": "video",
+      "title": "Video with Marcus Johnson",
+      "date": "2026-01-15"
+    }
+  ]
+}
